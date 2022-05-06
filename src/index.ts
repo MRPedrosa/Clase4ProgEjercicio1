@@ -13,16 +13,14 @@ rotulo1.innerHTML = "Ingrese los numeros ";
 
 btnEnviar.addEventListener("click", () => {
   let numeroIngresado: number = Number(dato1.value);
-btnEnviar.addEventListener("click", () => {
-  let numeroIngresado: number = Number(dato2.value);
-btnEnviar.addEventListener("click", () => {
-  let numeroIngresado: number = Number(dato3.value);
-
+  let numeroIngresado: number2 = Number(dato2.value);
+  let numeroIngresado: number3 = Number(dato3.value);
+}
 
 if (dato1 > dato2 && dato1 > dato3) {
-  console.log("El numero " dato1 " es el mayor");
+  console.log("El numero " + dato1 +" es el mayor");
 } else if(dato2 > dato1 && dato2 > dato3)) {
-  console.log("El numero " dato2 " es el mayor");
+  console.log("El numero " + dato2 + " es el mayor");
 } else if(dato3 > dato1 && dato3 > dato2)) {
-  console.log("El numero " dato3 " es el mayor");
+  console.log("El numero " + dato3 + " es el mayor");
 }
